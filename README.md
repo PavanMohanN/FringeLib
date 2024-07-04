@@ -1,4 +1,5 @@
-![image](https://github.com/PavanMohanN/FringeLib/assets/65588614/ed58f65a-6179-4705-9998-4953621b9482)
+![image](https://github.com/PavanMohanN/FringeLib/assets/65588614/8b668e1c-3abf-4a00-9f34-f4c9b9842030)
+
 
 # FringeLib: Extracting Key Features from Holographic Images
 
