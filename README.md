@@ -14,4 +14,15 @@ FringeLib is a Python library designed for extracting the main context from holo
 
 You can install FringeLib using pip:
 <code>pip install FringeLib</code><br>
-  
+
+## Usage
+### Example Usage
+<code>
+import FringeLib
+from FringeLib import frng_a, frng_p
+
+# Example usage for amplitude correction
+amplitude_image = load_amplitude_image()  # Replace with actual loading code
+main_context_a = frng_a(amplitude_image)
+
+</code>
