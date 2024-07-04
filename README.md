@@ -1,1 +1,1 @@
-# fringe_pack
+# FringeLib
