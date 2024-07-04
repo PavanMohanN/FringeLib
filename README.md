@@ -33,6 +33,24 @@ result_p = FringeLib.frng_p(img)
 plt.imshow(result_p,cmap='gray') 
 
 </code>
+## Project Directory Structure
+<code>
+  FringeLib/
+├── dist/
+│   └── fringe_pack-1.0-py3-none-any.whl  # Distribution package (example)
+└── src/
+    └── fringe_pack/
+        ├── __init__.py                   # Package initialization
+        ├── frng_a.py                     # Module for amplitude correction
+        ├── frng_p.py                     # Module for phase correction
+        └── fringe_pack.egg-info/         # Package metadata
+            ├── dependency_links.txt
+            ├── PKG-INFO
+            ├── requires.txt
+            ├── SOURCES.txt
+            └── top_level.txt
+
+</code>
 
 ## Contact
 For any questions or inquiries about FringeLib, please contact.
