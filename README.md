@@ -1,4 +1,6 @@
-# FringeLib: Python Library for Main Context Extraction from Holographic Images
+![image](https://github.com/PavanMohanN/FringeLib/assets/65588614/ed58f65a-6179-4705-9998-4953621b9482)
+
+# FringeLib: Extracting Key Features from Holographic Images
 
 FringeLib is a Python library designed for extracting the main context from holographic images that require amplitude or phase correction. This library provides functionalities to enhance the quality and interpretability of such images, catering to both amplitude and phase correction needs.
 
@@ -21,8 +23,28 @@ You can install FringeLib using pip:
 import FringeLib
 from FringeLib import frng_a, frng_p
 
-# Example usage for amplitude correction
-amplitude_image = load_amplitude_image()  # Replace with actual loading code
-main_context_a = frng_a(amplitude_image)
+# Example usage for image needing amplitude correction
+result_a = FringeLib.frng_a(img)
+plt.imshow(result_a,cmap='gray') 
+
+# Example usage for image needing phase correction
+result_p = FringeLib.frng_p(img)
+plt.imshow(result_p,cmap='gray') 
 
 </code>
+
+## Contact
+For any questions or inquiries about FringeLib, please contact.
+
+`Created in Jul 2024`
+
+`@author: Pavan Mohan Neelamraju`
+
+`Affiliation: Indian Institute of Technology Madras`
+
+**Email**: npavanmohan3@gmail.com
+
+**Personal Website 🔴🔵**: [pavanmohann.github.io](https://pavanmohann.github.io/)
+
+
+---
