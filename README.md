@@ -22,7 +22,6 @@ You can install FringeLib using pip:
 ### Example Usage
 <code>
 import FringeLib
-from FringeLib import frng_a, frng_p
 
 # Example usage for image needing amplitude correction
 result_a = FringeLib.frng_a(img)
