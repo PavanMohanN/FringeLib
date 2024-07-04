@@ -38,13 +38,13 @@ You can utilize FringeLib using the repo:
 import FringeLib
 </code>
 
-# Example usage for image needing amplitude correction
+### Example usage for image needing amplitude correction
 <code>
 result_a = FringeLib.frng_a(img)
 plt.imshow(result_a,cmap='gray') 
 </code>
 
-# Example usage for image needing phase correction
+### Example usage for image needing phase correction
 <code>
 result_p = FringeLib.frng_p(img)
 plt.imshow(result_p,cmap='gray') 
