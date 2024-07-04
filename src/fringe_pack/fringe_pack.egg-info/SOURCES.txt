@@ -1,0 +1,5 @@
+fringe_pack.egg-info/PKG-INFO
+fringe_pack.egg-info/SOURCES.txt
+fringe_pack.egg-info/dependency_links.txt
+fringe_pack.egg-info/requires.txt
+fringe_pack.egg-info/top_level.txt

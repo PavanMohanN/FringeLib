@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: fringe-pack
+Version: 1.0
+Summary: Package for amplitude and phase correction in holograms
+Home-page: https://github.com/PavanMohanN/fringe_pack
+Author: Pavan Mohan Neelamraju
+Author-email: npavanmohan3@gmail.com
+Keywords: image processing fringe_pack
