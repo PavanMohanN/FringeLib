@@ -33,7 +33,9 @@ result_p = FringeLib.frng_p(img)
 plt.imshow(result_p,cmap='gray') 
 
 </code>
+
 ## Project Directory Structure
+
 <code>
   FringeLib/
 ├── dist/
@@ -51,6 +53,7 @@ plt.imshow(result_p,cmap='gray')
             └── top_level.txt
 
 </code>
+
 **dist/**: Contains distribution packages (whl files) generated for deployment.
 
 **src/**: Directory containing the source code for the project.
