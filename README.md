@@ -12,7 +12,20 @@ FringeLib is a Python library designed for extracting the main context from holo
 - Synthetic Datasets: Includes two synthetic datasets:
   - **Amplitude Dataset**: 100 images requiring amplitude correction.
   - **Phase Dataset**: 100 images requiring phase correction.
- 
+
+ <h3>Library Installation </h3>
+
+<code>pip install numpy</code><br>
+<code>pip install matplotlib</code><br>
+<code>pip install opencv-python</code><br>
+
+<h3> Importing the libraries </h3>
+
+<code>import numpy as np</code><br>
+<code>import matplotlib.pyplot as plt</code><br>
+<code>import cv2</code><br>
+
+
 ## Installation
 
 You can install FringeLib using pip:
@@ -22,16 +35,21 @@ You can install FringeLib using pip:
 ### Example Usage
 <code>
 import FringeLib
+</code>
 
 # Example usage for image needing amplitude correction
+<code>
 result_a = FringeLib.frng_a(img)
 plt.imshow(result_a,cmap='gray') 
+</code>
 
 # Example usage for image needing phase correction
+<code>
 result_p = FringeLib.frng_p(img)
 plt.imshow(result_p,cmap='gray') 
-
 </code>
+
+[whl_implementation.ipynb illustrates the utilization of the executable with os, numpy, matplotlib and cv2 as dependencies]
 
 ## Project Directory Structure
 
