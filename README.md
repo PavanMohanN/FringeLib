@@ -42,9 +42,7 @@ plt.imshow(result_p,cmap='gray')
 │   └── fringe_pack-1.0-py3-none-any.whl  # Distribution package (example)
 └── src/
     └── fringe_pack/
-        ├── __init__.py                   # Package initialization
-        ├── frng_a.py                     # Module for amplitude correction
-        ├── frng_p.py                     # Module for phase correction
+        ├── FringeLib.pyc      # Package
         └── fringe_pack.egg-info/         # Package metadata
             ├── dependency_links.txt
             ├── PKG-INFO
