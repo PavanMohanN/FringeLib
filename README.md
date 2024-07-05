@@ -50,7 +50,8 @@ result_p = FringeLib.frng_p(img)
 plt.imshow(result_p,cmap='gray') 
 </code>
 
-[whl_implementation.ipynb illustrates the utilization of the executable with os, numpy, matplotlib and cv2 as dependencies]
+
+**[whl_implementation.ipynb illustrates the utilization of the executable with os, numpy, matplotlib and cv2 as dependencies]**
 
 ## Project Directory Structure
 
