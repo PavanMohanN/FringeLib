@@ -91,7 +91,7 @@ plt.imshow(result_p,cmap='gray')
 
 **Email**: npavanmohan3@gmail.com
 
-**Personal Website 🔴🔵**: [pavanmohann.github.io](https://pavanmohann.github.io/)
+**Personal Website 🔴🔵**: [[pavanmohan.netlify.app](https://pavanmohan.netlify.app/)]
 
 
 ---
